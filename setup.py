@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="m3", # Replace with your own username
+    name="m3",
     version="0.1.1",
     author="Stanislav",
     author_email="stas.yyyy20@gmail.com",
