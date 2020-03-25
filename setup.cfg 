@@ -1,0 +1,23 @@
+[metadata]
+name = m3_project
+version = 0.1
+description = test task
+author = Stanislav
+author_email = stas.yyyy20@gmail.com
+classifiers =
+    Environment :: Web Environment
+    Framework :: Django
+    Programming Language :: Python
+    Programming Language :: Python :: 3
+    Programming Language :: Python :: 3 :: Only
+    Programming Language :: Python :: 3.6
+    Programming Language :: Python :: 3.7
+    Programming Language :: Python :: 3.8
+    Topic :: Internet :: WWW/HTTP
+    Topic :: Internet :: WWW/HTTP :: Dynamic Content
+
+[options]
+include_package_data = true
+packages = find:pip install m3-0.0.1.tar.gz \
+ --extra-index-url http://pypi.bars-open.ru/simple/ \
+ --trusted-host pypi.bars-open.ru
