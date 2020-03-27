@@ -181,9 +181,9 @@ class UserObjectPack(ObjectPack):
         },
     ]
 
-    # def prepare_row(self, obj, request, context):
-    #     obj.is_staff = (
-    #         '<div class="x-grid3-check-col%s"></div>'
-    #         % '-on' if obj.is_staff else ''
-    #     )
-    #     return obj
+     def prepare_row(self, obj, request, context):
+         obj.is_staff = (
+             '<div class="x-grid3-check-col%s"></div>'
+             % '-on' if obj.is_staff else '',
+         )
+         return obj
