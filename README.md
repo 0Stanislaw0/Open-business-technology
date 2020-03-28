@@ -14,6 +14,6 @@
     
   3. Запустите сервер
   
-    python ./test_venv/lib/python3.6/site-packages/m3_project/manage.py runserver 0.0.0.0:8000
+    python ./test_venv/lib/python3.6/site-packages/m3_project/manage.py runserver 
   
   4. PROFIT!!!
