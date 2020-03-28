@@ -8,4 +8,8 @@
     --extra-index-url http://pypi.bars-open.ru/simple/ \
     --trusted-host pypi.bars-open.ru
     
-  3. PROFIT!!!
+  3. Запустите сервер
+  
+    python manage.py runserver
+  
+  4. PROFIT!!!
