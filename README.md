@@ -4,7 +4,7 @@
   1. Установите и активируйте виртуальное окружение
   2. Установите пакет
   
-    pip install m3-0.0.1.tar.gz \
+    pip install m3-0.1.1.tar.gz \
     --extra-index-url http://pypi.bars-open.ru/simple/ \
     --trusted-host pypi.bars-open.ru
     
