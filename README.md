@@ -8,5 +8,4 @@
     --extra-index-url http://pypi.bars-open.ru/simple/ \
     --trusted-host pypi.bars-open.ru
     
-  3. Установите requirements.txt
-  4. PROFIT!!!
+  3. PROFIT!!!
