@@ -2,6 +2,10 @@
 
 ### Установка
   1. Установите и активируйте виртуальное окружение
+
+    virtualenv --python=python3.6 ./test_venv
+    source ./test_venv/bin/activate
+      
   2. Установите пакет
   
     pip install m3-0.1.1.tar.gz \
